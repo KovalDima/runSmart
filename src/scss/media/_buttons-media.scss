@@ -1,0 +1,24 @@
+@media (max-width: 610px) {
+  .btn {
+    padding: 7px 21px;
+    font-size: 11px;
+    &_main {
+      padding: 15px 38px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    &_mini {
+      font-size: 14px;
+      padding: 13px 38px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    &_main {
+      padding: 13px 35px;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.advantages {
+  padding: 70px 0 65px;
+  background: #f6f6f6;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+.advantages__title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.advantages__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.advantages__item {
+  width: 265px;
+}
+
+.advantages__item-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 0 20px;
+}
+
+.advantages__item-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.3;
+  a {
+    color: #ff0000;
+  }
+}
+
+.advantages__item-img {
+  width: 65px;
+}

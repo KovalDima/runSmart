@@ -1,0 +1,23 @@
+@import "bootstrap-reboot";
+@import "base/vars";
+@import "base/icons";
+@import "slick";
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "blocks/modal";
+@import "blocks/buttons";
+@import "blocks/forms";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/footer";
+@import "media";

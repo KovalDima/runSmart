@@ -1,0 +1,16 @@
+@media (max-width: 610px) {
+  .feed-form {
+    input {
+      height: 46px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .feed-form {
+    width: 260px;
+    input {
+      height: 41px;
+    }
+  }
+}

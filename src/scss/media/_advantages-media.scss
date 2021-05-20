@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+  .advantages__item {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 680px) {
+  .advantages__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .advantages__item {
+    margin: 8px;
+  }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 919px) {
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 15px;
+    li {
+      margin: 0 8px;
+      button {
+        border: none;
+        font-size: 0;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .slick-active {
+      button {
+        background: #ccc;
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .slick-dots {
+    li {
+      button {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .slick-active {
+      button {
+        width: 17px;
+        height: 17px;
+      }
+    }
+  }
+}

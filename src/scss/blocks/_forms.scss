@@ -1,0 +1,31 @@
+.feed-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  input {
+    height: 49px;
+    padding: 0 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4b4b4b;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 20px;
+    }
+  }
+  input.error {
+    border: 1px solid red;
+    margin-bottom: 5px;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 5px;
+    }
+  }
+  .error {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
